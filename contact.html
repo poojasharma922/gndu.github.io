@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GURU NANAK DEV UNIVERSITY RC JALANDHAR</title>
+
+    <link rel="stylesheet" href="style.css">
+    <!--link of CSS file-->
+
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link rel="stylesheet"
+        href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;600;700&display=swap">
+    <link rel="stylesheet"
+        href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5.15.4/css/fontawesome.min.css">
+
+    <script src="https://kit.fontawesome.com/8b3f270af2.js" crossorigin="anonymous"></script>
+    <!--to add awesome fonts-->
+</head>
+
+<body>
+    <section class="sub-header">
+        <nav>
+            <a href="index.html"> <img src="images/gndurcjallogo.png" alt="Error loading image"></a>
+            <!--GNDU logo is needed-->
+            <div class="nav-links" id="navLinks">
+                <i class="fa fa-xmark" onclick="hideMenu()"></i>
+                <!--this will call the function hideMenu-->
+                <ul>
+                    <li><a href="index.html">HOME</a></li>
+                    <li><a href="about.html">ABOUT</a></li>
+                    <li><a href="course.html">COURSE</a></li>
+                    <li><a href="blog.html">PLACEMENT</a></li>
+                    <li><a href="contact.html">CONTACT</a></li>
+                    <li><a href="event.html">EVENTS</a></li>
+                    <li><a href="faculty.html">FACULTY</a></li>
+
+                </ul>
+            </div>
+            <i class="fa fa-bars" onclick="showMenu()"></i>
+
+        </nav>
+
+        <h1 class="ppp">Contact US</h1>
+    </section>
+
+
+    <!-- **********CONTACT US********** -->
+    <section class="location">
+        <iframe
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3407.919797817127!2d75.62150621510091!3d31.333587981431933!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x391a598afff01ab1%3A0x4d676314655e801!2sGuru%20Nanak%20Dev%20University%2C%20Regional%20Campus%2C%20Jalandhar!5e0!3m2!1sen!2sin!4v1651824414570!5m2!1sen!2sin"
+            width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"
+            referrerpolicy="no-referrer-when-downgrade"></iframe>
+    </section>
+
+    <section class="contact-us">
+        <div class="row">
+            <div class="contact-col">
+                <div>
+                    <i class="fa fa-home"></i>
+                    <span>
+                        <h5>Ladhewali Road</h5>
+                        <p>Jalandhar, Punjab, 144007</p>
+                    </span>
+                </div>
+
+                <div>
+                    <i class="fa fa-phone"></i>
+                    <span>
+                        <h5>0181-2414250</h5>
+                        <p>Department of Engineering and Technology Office</p> <br>
+                        <h5>0181-2414147</h5>
+                        <p>Department of Law Office</p>
+
+                    </span>
+                </div>
+
+                <div>
+                    <i class="fa fa-envelope-o"></i>
+                    <span>
+                        <h5>et.rcj@gndu.ac.in</h5>
+                        <p>Department of Engineering and Technology</p><br>
+                        <h5>jmc.rcj@gndu.ac.in</h5>
+                        <p>Department of journalism and mass communication</p> <br>
+                        <h5>laws.rcj@gndu.ac.in</h5>
+                        <p>Department of laws</p>
+
+                    </span>
+                </div>
+            </div>
+            <div class="contact-col">
+
+                <form action="https://formspree.io/f/mgedrwbn" method="post">
+                    <!--Use of formspree-->
+                    <!-- form-handler.php -->
+                    <input type="text" name="name" placeholder="Enter your Name" required>
+                    <input type="email" name="email" placeholder="Enter your email address" required>
+                    <input type="text" name="subject" placeholder="Enter your subject " required>
+                    <textarea rows="8" name="message" placeholder="Message" required></textarea>
+                    <button type="submit" class="hero-btn red-btn">Send Message </button>
+
+                </form>
+            </div>
+
+        </div>
+    </section>
+
+    <!-- *******************FOOTER**************** -->
+    <section class="footer">
+        <h4>ABOUT US</h4>
+        <p>The Campus is located on the Jalandhar-Amritsar Highway about 3 kms from the PAP Chowk. Fulfilling the
+            demands of people of Doaba region for quality education, Guru Nanak Dev University established its Regional
+            campus at Jalandhar in 1979 with English, Punjabi and Law departments.</p>
+        <p>
+        <ul>To provide professional competence to students with strong foundation in the core areas.</ul>
+        <ul>To continuously enrich the teaching learning process through linkages with industry, projects, Workshops,
+            Seminars and Conferences.
+        </ul>
+        <ul>To provide holistic education to the students through inter-disciplinary courses and Life skill development
+            programs i.e. co-scholastic & co-curricular activities.
+        </ul>
+        </p> <br>
+
+        <div class="icons">
+            <li><a href="https://m.facebook.com/GNDU-Regional-CampusJalandhar-179292552155303/"><i
+                        class="fa fa-facebook"></i></a></li>
+            <li><a href="https://www.instagram.com/gndu_rc_jalandhar/?igshid=1v4yryuaz8awz&hl=en"><i
+                        class="fa fa-instagram"></i></a></li>
+            <li><a href="https://twitter.com/gndu_amritsar?lang=en"><i class="fa fa-twitter"></i></a></li>
+            <li><a href="https://www.linkedin.com/school/guru-nanak-dev-university-amritsar/?originalSubdomain=in"><i
+                        class="fa fa-linkedin"></i></a></li>
+        </div>
+
+        <p>made with <i class="fa fa-heart-o"></i> by Pooja & Ankita</p>
+    </section>
+
+    <!-- ************JAVASCRIPT FOR TOGGLE MENU*********** -->
+    <script>
+        var navLinks = document.getElementById("navLinks"); //variable creation
+        function showMenu() {
+            navLinks.style.right = '0';
+        }
+
+        function hideMenu() {
+            navLinks.style.right = '-200px';
+        }
+
+    </script>
+
+</body>
+
+</html>
