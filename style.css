@@ -7,8 +7,8 @@
 .header{
     min-height: 100vh;
     width: 100%;
-    background-image: linear-gradient(rgba(4,9,30,0.7), rgba(4,9,30,0.7)),url(images/banner.jpg); /**need to add GNDU IMAGE** */
-    background-position: center;
+    background-image: linear-gradient(rgba(4,9,30,0.7), rgba(4,9,30,0.7)),url(images/gallery9.jpg); /**need to add GNDU IMAGE** */
+    background-position: bottom;
     background-size: cover;
     position: relative;
 }
@@ -40,6 +40,7 @@ nav img{
     color: #fff;
     text-decoration: none;  /*to remove underline from home,about,etc..*/
     font-size: 13px;
+    
 }
 
 .nav-links ul li::after{
@@ -124,13 +125,13 @@ nav .fa{
         display: block;
         color: #fff;
         margin: 10px;
-        font-size: 22px;
+        font-size: 12px;
         cursor: pointer;
 
     }
 
     .nav-links ul li{
-        padding: 30px;  
+        padding: 17px;  
     }
 
     nav .fa{
@@ -418,8 +419,8 @@ h3{
 .sub-header{
     height: 50vh;
     width: 100%;
-    background-image: linear-gradient(rgba(4,9,30,0.7),rgba(4,9,30,0.7)),url(images/gndubeauty.JPG);
-    background-position: center;
+    background-image: linear-gradient(rgba(4,9,30,0.7),rgba(4,9,30,0.7)),url(images/gallery1.jpg);
+    background-position: bottom;
     background-size: cover;
     text-align: center;
     color: #fff;
@@ -835,3 +836,69 @@ body{
 .col38{
     height: 250px;
 }
+
+  /* ***************HOSTEL************* */
+  .dropdown {
+    display: inline-block;
+    position: relative;
+
+
+  }
+
+  li .dropdown{
+      display: inline-block;
+  }
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    width: 100%;
+    overflow: -moz-hidden-unscrollable;
+    box-shadow: 0px 10px 10px 0px rgba(0,0,0,0.4);
+  }
+  .dropdown:hover .dropdown-content {
+    display: block;
+  }
+  .dropdown-content a {
+    display: block;
+    color: hsl(0, 13%, 79%);
+    padding: 2px;
+    text-decoration: none;
+    width: 130px;
+    text-align: left;
+    /* border: 2px solid rgb(225, 190, 190); */
+    
+    
+  }
+  .dropdown-content a:hover {
+    color: #FFFFFF;
+    /* background-color: #00A4BD;s */
+  }
+
+  button{
+      background: none;
+      color: white;
+      border: none;
+  }
+
+  .dropdown-content a:hover{
+      color: #d97b7b;
+      
+  }
+
+  @media (max-width:700px) {
+      .dropdown-content a{
+          padding: 1px;
+          
+      }
+
+      .dropdown-content a:hover{
+        color: #161515;
+        
+    }
+      
+  }
+
+
+
+
+ 
